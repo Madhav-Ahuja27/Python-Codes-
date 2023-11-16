@@ -23,3 +23,19 @@ for i in range(row):
 for i in range(row):
   for j in range(col):
     print(mat[i][j])
+# import numpy as np
+
+# # Define two matrices as NumPy arrays
+# matrix1 = np.array([[1, 2, 3],
+#                    [4, 5, 6],
+#                    [7, 8, 9]])
+
+# matrix2 = np.array([[9, 8, 7],
+#                    [6, 5, 4],
+#                    [3, 2, 1]])
+
+# # Perform matrix addition using NumPy
+# result_matrix = np.add(matrix1,matrix2)
+
+# # Display the result matrix
+# print(result_matrix)
