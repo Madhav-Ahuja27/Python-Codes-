@@ -18,3 +18,15 @@ def add(a, b):
 hello()
 # greet(add)(1, 2)
 add(1, 2)
+
+def greet(fx):
+  def mfx(*args,**kwargs):
+    print("hello")
+    fx(*args,**kwargs)
+    print("The above statement contains the sum")
+  return mfx
+@greet
+def sum(a,b):
+  print(a+b)
+
+sum(1,2)
