@@ -1,7 +1,7 @@
 if __name__=="__main__":
     name=input("What is your name?")
     import time
-    hour=int(time.strftime("%H"))
+    hour=int(time.strftime("%H")).
     if hour>0 and hour<12:
         greet="Good Morning"
     elif hour>=12 and hour<=16:
