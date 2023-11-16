@@ -13,3 +13,13 @@ print(np.dot(mat2,mat3))
 
 inverse=np.linalg.inv(mat2)
 print(inverse)
+
+row=int(input())
+col=int(input())
+mat=[]
+for i in range(row):
+  for j in range(col):
+    mat.append(int(input()))
+for i in range(row):
+  for j in range(col):
+    print(mat[i][j])
