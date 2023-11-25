@@ -10,3 +10,7 @@ def calcsum(x,n):
     sum+=int(number)
   return sum
   
+n=int(input)
+n=str(9823982)
+x=n[::-1]
+print(calcsum(x,n))
